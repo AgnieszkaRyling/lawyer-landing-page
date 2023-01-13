@@ -12,12 +12,25 @@
   line-height: 25px;
 }
 
+.p-medium {
+  font-size: 24px;
+  color: variables.$gray;
+}
+
 .p-big {
   font-size: 45px;
 }
 
-.white-text {
+.text-white {
   color: #fff;
+}
+
+.text-blue {
+  color: variables.$darkblue;
+}
+
+.text-gray {
+  color: variables.$gray;
 }
 
 .center-text {
@@ -31,7 +44,7 @@
 .h1-text {
   font-size: 90px;
   font-family: "DM Serif Display";
-  color: variables.$darkblue;
+
   margin-bottom: 30px;
 }
 

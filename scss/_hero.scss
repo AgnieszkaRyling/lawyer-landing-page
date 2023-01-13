@@ -1,3 +1,5 @@
+@use "variables";
+
 .section-hero {
   max-width: 1440px;
   border: 2px solid black;
@@ -25,6 +27,7 @@
   position: absolute;
   left: 0;
   top: 200px;
+  z-index: 2;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
@@ -42,7 +45,7 @@
 }
 
 .hero-p-box {
-  max-width: 380px;
+  max-width: 590px;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
@@ -60,4 +63,39 @@
 .hero-image-box {
   max-width: 811px;
   max-height: 973px;
+  position: relative;
+  border: 2px solid red;
+}
+
+.image-description-box {
+  width: 382px;
+  height: 114px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 214px;
+}
+
+.hero-news-box {
+  height: 100%;
+  width: 434px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: variables.$lightblue;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.hero-news-button {
+  font-size: 14px;
+  color: #fff;
+  background-color: variables.$darkblue;
+  padding: 5px 20px;
+  border-radius: 30px;
 }

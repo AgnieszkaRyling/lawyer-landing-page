@@ -45,12 +45,25 @@ img {
   line-height: 25px;
 }
 
+.p-medium {
+  font-size: 24px;
+  color: #4f4f4f;
+}
+
 .p-big {
   font-size: 45px;
 }
 
-.white-text {
+.text-white {
   color: #fff;
+}
+
+.text-blue {
+  color: #094b72;
+}
+
+.text-gray {
+  color: #4f4f4f;
 }
 
 .center-text {
@@ -64,7 +77,6 @@ img {
 .h1-text {
   font-size: 90px;
   font-family: "DM Serif Display";
-  color: #094b72;
   margin-bottom: 30px;
 }
 
@@ -99,6 +111,10 @@ img {
   background-color: #094b72;
   padding: 20px;
   border-radius: 10px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 .navbar {
@@ -219,6 +235,7 @@ img {
   position: absolute;
   left: 0;
   top: 200px;
+  z-index: 2;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
@@ -234,7 +251,7 @@ img {
   }
 }
 .hero-p-box {
-  max-width: 380px;
+  max-width: 590px;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
@@ -250,4 +267,39 @@ img {
 .hero-image-box {
   max-width: 811px;
   max-height: 973px;
+  position: relative;
+  border: 2px solid red;
+}
+
+.image-description-box {
+  width: 382px;
+  height: 114px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 214px;
+}
+
+.hero-news-box {
+  height: 100%;
+  width: 434px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #e6f6ff;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.hero-news-button {
+  font-size: 14px;
+  color: #fff;
+  background-color: #094b72;
+  padding: 5px 20px;
+  border-radius: 30px;
 }/*# sourceMappingURL=stylesheet.css.map */
