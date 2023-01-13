@@ -2,7 +2,38 @@
 
 .section-about {
   max-width: 1440px;
-  height: 500px;
   background-color: variables.$background;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 200px;
   border: 2px solid green;
+}
+
+.about-text-box {
+  width: 419px;
+  border: 2px solid lime;
+}
+.about-container {
+  max-width: 545px;
+  min-height: 534px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 2px solid red;
+}
+
+.about-box {
+  width: 256px;
+  height: 256px;
+  background-color: #fff;
+  padding: 15px;
+  border: 2px solid blue;
+}
+
+.about-picture-box {
+  width: 37px;
+  height: 37px;
+  border: 2px solid grey;
+  margin-bottom: 10px;
 }
