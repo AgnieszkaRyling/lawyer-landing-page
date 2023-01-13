@@ -85,10 +85,16 @@ img {
   margin: 0 auto;
 }
 
+.button-hidden {
+  background-color: transparent;
+  border: 0;
+}
+
 .navbar {
   max-width: 1110px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 0;
   position: relative;
   border: 2px solid red;
@@ -98,13 +104,6 @@ img {
   width: 144px;
   height: 40px;
   border: 2px solid purple;
-}
-
-.menu-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 2px solid green;
 }
 
 .menu-list {
@@ -129,7 +128,7 @@ img {
   content: "";
   height: 2.5px;
   width: 0;
-  background-color: green;
+  background-color: #094b72;
   position: absolute;
   left: 0;
   bottom: -5px;
@@ -163,11 +162,11 @@ img {
 }
 .navbar-mobile li {
   padding: 10px;
-  background-color: red;
+  background-color: #094b72;
   transition: 0.5s;
 }
 .navbar-mobile li:hover {
-  background-color: pink;
+  background-color: #5796bb;
 }
 
 .nav-mobile-button-box {

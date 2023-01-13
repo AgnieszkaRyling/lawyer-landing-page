@@ -20,43 +20,41 @@
             ><img src="pictures/logo.png" alt="Warehouse Data logo"
           /></a>
         </div>
-        <div class="menu-container">
-          <ul class="menu-list">
+        <ul class="menu-list">
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Testimonials</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Terms</a>
+          </li>
+        </ul>
+        <div class="navbar-mobile" style="display: none" id="navbarMobile">
+          <ul>
             <li>
-              <a href="#">Contact</a>
+              <a href="#" class="p-text white-text">Contact</a>
             </li>
             <li>
-              <a href="#">Testimonials</a>
+              <a href="#" class="p-text white-text">Testimoninals</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#" class="p-text white-text">About</a>
             </li>
             <li>
-              <a href="#">Terms</a>
+              <a href="#" class="p-text white-text">Terms</a>
             </li>
           </ul>
-          <div class="navbar-mobile" style="display: none" id="navbarMobile">
-            <ul>
-              <li>
-                <a href="#" class="p-text white-text">Contact</a>
-              </li>
-              <li>
-                <a href="#" class="p-text white-text">Testimoninals</a>
-              </li>
-              <li>
-                <a href="#" class="p-text white-text">About</a>
-              </li>
-              <li>
-                <a href="#" class="p-text white-text">Terms</a>
-              </li>
-            </ul>
-          </div>
         </div>
         <div class="nav-icon-box">
           <i class="fa-solid fa-magnifying-glass fa-2x"></i>
         </div>
         <div class="nav-mobile-button-box">
-          <button type="button" class="not-like-button" id="buttonMobile">
+          <button type="button" class="button-hidden" id="buttonMobile">
             <i class="fa-solid fa-bars fa-2x"></i>
           </button>
         </div>
@@ -64,6 +62,22 @@
     </header>
     <main></main>
     <footer></footer>
-    <script></script>
+    <script>
+      //NAVBAR
+
+      const navbarMobile = document.querySelector("#navbarMobile");
+      const buttonMobile = document.querySelector("#buttonMobile");
+
+      const showMobileMenu = () => {
+        console.log();
+        if (navbarMobile.style.display === "none") {
+          navbarMobile.style.display = "block";
+        } else if (navbarMobile.style.display === "block") {
+          navbarMobile.style.display = "none";
+        }
+      };
+
+      buttonMobile.addEventListener("click", showMobileMenu);
+    </script>
   </body>
 </html>

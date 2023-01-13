@@ -4,6 +4,7 @@
   max-width: 1110px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 0;
   position: relative;
   border: 2px solid red;
@@ -13,13 +14,6 @@
   width: 144px;
   height: 40px;
   border: 2px solid purple;
-}
-
-.menu-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 2px solid green;
 }
 
 .menu-list {
@@ -48,7 +42,7 @@
     content: "";
     height: 2.5px;
     width: 0;
-    background-color: green;
+    background-color: variables.$darkblue;
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -86,12 +80,12 @@
 
   li {
     padding: 10px;
-    background-color: red;
+    background-color: variables.$darkblue;
     transition: 0.5s;
   }
 
   li:hover {
-    background-color: pink;
+    background-color: variables.$blue;
   }
 }
 
