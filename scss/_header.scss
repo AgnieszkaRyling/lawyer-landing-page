@@ -10,19 +10,21 @@
 }
 
 .logo-picture-box {
-  max-width: 114px;
+  width: 144px;
+  height: 40px;
+  border: 2px solid purple;
 }
 
 .menu-container {
-  width: 40%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 2px solid green;
 }
 
 .menu-list {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
@@ -58,8 +60,15 @@
   }
 }
 
-.nav-button-box {
-  width: 30%;
+.menu-list li a {
+  text-transform: uppercase;
+}
+
+.nav-icon-box {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  border: 2px solid blue;
 }
 
 .navbar-mobile {
