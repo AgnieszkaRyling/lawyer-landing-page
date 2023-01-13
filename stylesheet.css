@@ -491,10 +491,30 @@ img {
   gap: 30px;
 }
 
+@media (min-width: 767px) and (max-width: 1200px) {
+  .testimonials-box {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .testimonials-box {
+    flex-direction: column;
+  }
+}
 .testimonial-item {
   width: 540px;
 }
 
+@media (min-width: 767px) and (max-width: 1200px) {
+  .testimonial-item {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .testimonial-item {
+    margin-bottom: 40px;
+  }
+}
 .testimonial-text-box {
   width: 100%;
   min-height: 280px;
