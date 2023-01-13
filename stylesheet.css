@@ -125,6 +125,10 @@ img {
   margin-bottom: 30px;
 }
 
+.mb-80 {
+  margin-bottom: 80px;
+}
+
 .navbar {
   max-width: 1110px;
   display: flex;
@@ -222,8 +226,8 @@ img {
   max-width: 1440px;
   border: 2px solid black;
   display: flex;
-  justify-content: flex-end;
   position: relative;
+  padding: 100px 0 0 0;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
@@ -240,10 +244,6 @@ img {
 }
 .hero-text-box {
   max-width: 891px;
-  position: absolute;
-  left: 0;
-  top: 200px;
-  z-index: 2;
   border: 2px solid orangered;
 }
 
@@ -286,8 +286,11 @@ img {
 .hero-image-box {
   max-width: 811px;
   max-height: 973px;
-  position: relative;
+  position: absolute;
   border: 2px solid red;
+  right: 0;
+  top: 0;
+  z-index: -1;
 }
 
 .image-description-box {
@@ -305,7 +308,6 @@ img {
 }
 
 .hero-news-box {
-  height: 100%;
   width: 434px;
   display: flex;
   align-items: center;
