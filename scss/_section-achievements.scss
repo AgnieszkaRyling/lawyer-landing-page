@@ -1,5 +1,22 @@
 .section-achievements {
   max-width: 1440px;
   height: 356px;
-  border: 2px solid brown;
+  background-image: url("pictures/achievements-background.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.achievements-box {
+  display: flex;
+  border: 2px solid red;
+}
+
+.achievement-item {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
