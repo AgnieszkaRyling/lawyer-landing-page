@@ -1,10 +1,14 @@
 @use "variables";
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Raleway:wght@200;400&display=swap");
 
 .p-text {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 10px;
+}
+
+.p-thin {
+  font-weight: 200;
 }
 
 .p-small {
