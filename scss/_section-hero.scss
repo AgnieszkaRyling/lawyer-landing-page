@@ -80,13 +80,13 @@
 
 @media (min-width: 767px) and (max-width: 1200px) {
   .hero-image-box {
-    position: static;
+    position: relative;
   }
 }
 
 @media (max-width: 768px) {
   .hero-image-box {
-    position: static;
+    position: relative;
   }
 }
 
