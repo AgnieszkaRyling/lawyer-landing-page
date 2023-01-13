@@ -437,4 +437,10 @@ img {
   height: 37px;
   border: 2px solid grey;
   margin-bottom: 10px;
+}
+
+.section-achievements {
+  max-width: 1440px;
+  height: 356px;
+  border: 2px solid brown;
 }/*# sourceMappingURL=stylesheet.css.map */
