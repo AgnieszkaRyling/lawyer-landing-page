@@ -534,4 +534,43 @@ img {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+.section-contact {
+  max-width: 1440px;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .section-contact {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .section-contact {
+    flex-direction: column;
+  }
+}
+.contact-text-box {
+  width: 821px;
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .contact-text-box {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-text-box {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+.contact-picture-box {
+  width: 330px;
+  height: 290px;
 }/*# sourceMappingURL=stylesheet.css.map */
