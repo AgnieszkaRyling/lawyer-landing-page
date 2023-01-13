@@ -293,6 +293,16 @@ img {
   z-index: -1;
 }
 
+@media (min-width: 767px) and (max-width: 1200px) {
+  .hero-image-box {
+    position: static;
+  }
+}
+@media (max-width: 768px) {
+  .hero-image-box {
+    position: static;
+  }
+}
 .image-description-box {
   width: 382px;
   height: 114px;
