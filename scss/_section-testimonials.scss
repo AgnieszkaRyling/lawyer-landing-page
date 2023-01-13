@@ -1,0 +1,41 @@
+@use "variables";
+
+.section-testimonials {
+  max-width: 1440px;
+  background-color: variables.$background;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.testimonials-box {
+  display: flex;
+  gap: 30px;
+}
+
+.testimonial-item {
+  width: 540px;
+}
+
+.testimonial-text-box {
+  width: 100%;
+  min-height: 280px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.client-picture-box {
+  width: 56px;
+  height: 56px;
+}
+
+.client-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

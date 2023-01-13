@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Raleway&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Raleway:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Raleway:wght@200;400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -44,6 +44,10 @@ img {
   font-weight: 200;
 }
 
+.p-bold {
+  font-weight: 500;
+}
+
 .p-small {
   font-size: 16px;
   line-height: 25px;
@@ -51,7 +55,7 @@ img {
 
 .p-medium {
   font-size: 24px;
-  color: #4f4f4f;
+  margin-bottom: 25px;
 }
 
 .p-big {
@@ -92,7 +96,7 @@ img {
 .h2-text {
   font-size: 48px;
   font-family: "DM Serif Display";
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .h3-text {
@@ -121,6 +125,10 @@ img {
   background-color: #094b72;
   padding: 20px;
   border-radius: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
 }
 
 .mb-50 {
@@ -466,4 +474,44 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.section-testimonials {
+  max-width: 1440px;
+  background-color: #f2f7ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.testimonials-box {
+  display: flex;
+  gap: 30px;
+}
+
+.testimonial-item {
+  width: 540px;
+}
+
+.testimonial-text-box {
+  width: 100%;
+  min-height: 280px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.client-picture-box {
+  width: 56px;
+  height: 56px;
+}
+
+.client-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }/*# sourceMappingURL=stylesheet.css.map */

@@ -1,5 +1,5 @@
 @use "variables";
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Raleway:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Raleway:wght@200;400;500;600&display=swap");
 
 .p-text {
   font-size: 20px;
@@ -11,6 +11,10 @@
   font-weight: 200;
 }
 
+.p-bold {
+  font-weight: 500;
+}
+
 .p-small {
   font-size: 16px;
   line-height: 25px;
@@ -18,7 +22,7 @@
 
 .p-medium {
   font-size: 24px;
-  color: variables.$gray;
+  margin-bottom: 25px;
 }
 
 .p-big {
@@ -59,7 +63,7 @@
 .h2-text {
   font-size: 48px;
   font-family: "DM Serif Display";
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .h3-text {
