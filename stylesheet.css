@@ -573,4 +573,91 @@ img {
 .contact-picture-box {
   width: 330px;
   height: 290px;
+}
+
+.section-footer {
+  max-width: 1440px;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: #094b72;
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20%;
+  padding: 50px;
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 768px) {
+  .footer-col-1 {
+    margin-bottom: 30px;
+  }
+}
+.footer-logo-container {
+  height: 39px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo-box {
+  width: 159px;
+  height: 54px;
+}
+
+.footer-product-list li,
+.footer-company-list li,
+.footer-support-list li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-col-2,
+.footer-col-3 {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-col-2-text-box,
+.footer-col-3-text-box {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-product-list,
+.footer-company-list,
+.footer-support-list {
+    display: flex;
+    gap: 10px;
+  }
+}
+.footer-media-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.social-icons-box {
+  width: 178px;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=stylesheet.css.map */
