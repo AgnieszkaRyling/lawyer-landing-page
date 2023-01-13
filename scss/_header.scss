@@ -1,0 +1,103 @@
+@use "variables";
+
+.navbar {
+  max-width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: relative;
+  border: 2px solid red;
+}
+
+.logo-picture-box {
+  max-width: 114px;
+}
+
+.menu-container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-list {
+  display: flex;
+  gap: 20px;
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .menu-list {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-list {
+    display: none;
+  }
+}
+
+.menu-list {
+  li {
+    position: relative;
+  }
+
+  li::after {
+    content: "";
+    height: 2.5px;
+    width: 0;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+  }
+
+  li:hover::after {
+    width: 100%;
+  }
+}
+
+.nav-button-box {
+  width: 30%;
+}
+
+.navbar-mobile {
+  position: absolute;
+  z-index: 2;
+  bottom: -250px;
+  width: 100%;
+}
+
+.navbar-mobile {
+  a {
+    width: 100%;
+    display: inline-block;
+  }
+
+  li {
+    padding: 10px;
+    background-color: red;
+    transition: 0.5s;
+  }
+
+  li:hover {
+    background-color: pink;
+  }
+}
+
+.nav-mobile-button-box {
+  display: none;
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .nav-mobile-button-box {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-mobile-button-box {
+    display: block;
+  }
+}
