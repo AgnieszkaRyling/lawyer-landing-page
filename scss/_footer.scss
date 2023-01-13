@@ -48,7 +48,6 @@
 
 .footer-logo-box {
   width: 159px;
-  height: 54px;
 }
 
 .footer-product-list li,
@@ -91,4 +90,26 @@
   width: 178px;
   display: flex;
   justify-content: space-between;
+}
+
+.footer-bottom-container {
+  width: 100%;
+  background-color: variables.$bluebackground;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footer-icon-box {
+  width: 28px;
+  height: 28px;
+  background-color: #195e88;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-brands {
+  color: #fff;
 }
