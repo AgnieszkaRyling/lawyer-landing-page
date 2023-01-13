@@ -1,0 +1,8 @@
+@use "variables";
+
+.section-about {
+  max-width: 1440px;
+  height: 500px;
+  background-color: variables.$background;
+  border: 2px solid green;
+}

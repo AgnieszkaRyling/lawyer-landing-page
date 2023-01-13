@@ -2,6 +2,7 @@
 
 .section-hero {
   max-width: 1440px;
+  min-height: 974px;
   border: 2px solid black;
   display: flex;
   position: relative;
@@ -25,6 +26,7 @@
 .hero-text-box {
   max-width: 891px;
   border: 2px solid orangered;
+  z-index: 1;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
@@ -74,7 +76,6 @@
   border: 2px solid red;
   right: 0;
   top: 0;
-  z-index: -1;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
@@ -99,18 +100,18 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 0;
+  bottom: -40px;
   left: 214px;
 }
 
 .hero-news-box {
   width: 434px;
+  background-color: variables.$lightblue;
   display: flex;
   align-items: center;
   gap: 10px;
-  background-color: variables.$lightblue;
-  border-radius: 30px;
   padding: 10px;
+  border-radius: 30px;
 }
 
 .hero-news-button {
@@ -126,6 +127,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 10px 0;
   border: 2px solid pink;
 }
 
