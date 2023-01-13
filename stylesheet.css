@@ -589,20 +589,18 @@ img {
 
 @media (min-width: 767px) and (max-width: 1200px) {
   .footer-container {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 10px;
   }
 }
 @media (max-width: 768px) {
   .footer-container {
-    width: 60%;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 10px;
   }
 }
 @media (max-width: 768px) {
@@ -626,6 +624,7 @@ img {
 .footer-company-list li,
 .footer-support-list li {
   margin-bottom: 10px;
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
@@ -666,6 +665,7 @@ img {
   background-color: #004d7b;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 10px;
 }
 
