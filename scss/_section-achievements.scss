@@ -10,12 +10,12 @@
 
 .achievements-box {
   display: flex;
-  border: 2px solid red;
 }
 
 @media (max-width: 768px) {
-  .achievement-box {
+  .achievements-box {
     flex-direction: column;
+    gap: 20px;
   }
 }
 
@@ -28,6 +28,6 @@
 
 @media (max-width: 768px) {
   .achievement-item {
-    background-color: blue;
+    border: 2px solid #fff;
   }
 }

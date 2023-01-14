@@ -164,13 +164,21 @@ img {
   align-items: center;
   padding: 20px 0;
   position: relative;
-  border: 2px solid red;
 }
 
+@media (min-width: 767px) and (max-width: 1200px) {
+  .navbar {
+    padding: 20px 10px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px 10px;
+  }
+}
 .logo-picture-box {
   width: 144px;
   height: 40px;
-  border: 2px solid purple;
 }
 
 .menu-list {
@@ -213,7 +221,6 @@ img {
   width: 50px;
   display: flex;
   align-items: center;
-  border: 2px solid blue;
 }
 
 .navbar-mobile {
@@ -253,7 +260,6 @@ img {
 .section-hero {
   max-width: 1440px;
   min-height: 974px;
-  border: 2px solid black;
   display: flex;
   position: relative;
   padding: 100px 0 0 0;
@@ -269,12 +275,10 @@ img {
   .section-hero {
     flex-direction: column-reverse;
     align-items: center;
-    background-color: aquamarine;
   }
 }
 .hero-text-box {
   max-width: 891px;
-  border: 2px solid blue;
   padding: 20px;
   z-index: 1;
 }
@@ -319,7 +323,6 @@ img {
   max-width: 811px;
   max-height: 973px;
   position: absolute;
-  border: 2px solid red;
   right: 0;
   top: 0;
 }
@@ -378,7 +381,6 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px 0;
-  border: 2px solid pink;
 }
 
 .company-picture-box-1 {
@@ -418,7 +420,6 @@ img {
   justify-content: space-around;
   align-items: center;
   padding: 100px 100px;
-  border: 2px solid green;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
@@ -433,7 +434,6 @@ img {
 }
 .about-text-box {
   width: 419px;
-  border: 2px solid lime;
 }
 
 .about-container {
@@ -442,7 +442,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  border: 2px solid red;
 }
 
 @media (max-width: 768px) {
@@ -456,13 +455,11 @@ img {
   height: 256px;
   background-color: #fff;
   padding: 15px;
-  border: 2px solid blue;
 }
 
 .about-picture-box {
   width: 37px;
   height: 37px;
-  border: 2px solid grey;
   margin-bottom: 10px;
 }
 
@@ -478,12 +475,12 @@ img {
 
 .achievements-box {
   display: flex;
-  border: 2px solid red;
 }
 
 @media (max-width: 768px) {
-  .achievement-box {
+  .achievements-box {
     flex-direction: column;
+    gap: 20px;
   }
 }
 .achievement-item {
@@ -495,7 +492,7 @@ img {
 
 @media (max-width: 768px) {
   .achievement-item {
-    background-color: blue;
+    border: 2px solid #fff;
   }
 }
 .section-testimonials {
@@ -508,6 +505,16 @@ img {
   padding: 80px;
 }
 
+@media (min-width: 767px) and (max-width: 1200px) {
+  .section-testimonials {
+    padding: 80px 40px;
+  }
+}
+@media (max-width: 768px) {
+  .section-testimonials {
+    padding: 80px 40px;
+  }
+}
 .testimonials-box {
   display: flex;
   gap: 30px;
@@ -524,7 +531,7 @@ img {
   }
 }
 .testimonial-item {
-  width: 540px;
+  max-width: 540px;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
@@ -569,15 +576,17 @@ img {
 @media (min-width: 767px) and (max-width: 1200px) {
   .section-contact {
     flex-direction: column;
+    padding: 100px 50px;
   }
 }
 @media (max-width: 768px) {
   .section-contact {
     flex-direction: column;
+    padding: 100px 50px;
   }
 }
 .contact-text-box {
-  width: 821px;
+  max-width: 821px;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {

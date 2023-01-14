@@ -9,17 +9,19 @@
 @media (min-width: 767px) and (max-width: 1200px) {
   .section-contact {
     flex-direction: column;
+    padding: 100px 50px;
   }
 }
 
 @media (max-width: 768px) {
   .section-contact {
     flex-direction: column;
+    padding: 100px 50px;
   }
 }
 
 .contact-text-box {
-  width: 821px;
+  max-width: 821px;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {

@@ -10,6 +10,18 @@
   padding: 80px;
 }
 
+@media (min-width: 767px) and (max-width: 1200px) {
+  .section-testimonials {
+    padding: 80px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-testimonials {
+    padding: 80px 40px;
+  }
+}
+
 .testimonials-box {
   display: flex;
   gap: 30px;
@@ -28,7 +40,7 @@
 }
 
 .testimonial-item {
-  width: 540px;
+  max-width: 540px;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
