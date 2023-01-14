@@ -110,7 +110,7 @@
 }
 
 .hero-news-box {
-  width: 434px;
+  -maxwidth: 434px;
   background-color: variables.$lightblue;
   display: flex;
   align-items: center;

@@ -358,7 +358,7 @@ img {
   }
 }
 .hero-news-box {
-  width: 434px;
+  -maxwidth: 434px;
   background-color: #e6f6ff;
   display: flex;
   align-items: center;
@@ -433,7 +433,7 @@ img {
   }
 }
 .about-text-box {
-  width: 419px;
+  max-width: 419px;
 }
 
 .about-container {
@@ -451,7 +451,7 @@ img {
   }
 }
 .about-box {
-  width: 256px;
+  max-width: 256px;
   height: 256px;
   background-color: #fff;
   padding: 15px;
@@ -567,7 +567,7 @@ img {
 
 .section-contact {
   max-width: 1440px;
-  padding: 100px;
+  padding: 100px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -655,7 +655,6 @@ img {
 .footer-company-list li,
 .footer-support-list li {
   margin-bottom: 10px;
-  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
