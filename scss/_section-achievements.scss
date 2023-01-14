@@ -1,6 +1,5 @@
 .section-achievements {
   max-width: 1440px;
-  height: 356px;
   background-image: url("pictures/achievements-background.png");
   display: flex;
   flex-direction: column;
@@ -14,9 +13,21 @@
   border: 2px solid red;
 }
 
+@media (max-width: 768px) {
+  .achievement-box {
+    flex-direction: column;
+  }
+}
+
 .achievement-item {
   width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .achievement-item {
+    background-color: blue;
+  }
 }

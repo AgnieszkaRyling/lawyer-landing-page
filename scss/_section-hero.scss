@@ -20,12 +20,14 @@
   .section-hero {
     flex-direction: column-reverse;
     align-items: center;
+    background-color: aquamarine;
   }
 }
 
 .hero-text-box {
   max-width: 891px;
-  border: 2px solid orangered;
+  border: 2px solid blue;
+  padding: 20px;
   z-index: 1;
 }
 
@@ -102,6 +104,13 @@
   position: absolute;
   bottom: -40px;
   left: 214px;
+}
+
+@media (max-width: 768px) {
+  .image-description-box {
+    width: 100%;
+    left: 0;
+  }
 }
 
 .hero-news-box {

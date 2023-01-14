@@ -60,6 +60,12 @@
   margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+  .h1-text {
+    font-size: 60px;
+  }
+}
+
 .h2-text {
   font-size: 48px;
   font-family: "DM Serif Display";

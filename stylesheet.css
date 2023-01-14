@@ -93,6 +93,11 @@ img {
   margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+  .h1-text {
+    font-size: 60px;
+  }
+}
 .h2-text {
   font-size: 48px;
   font-family: "DM Serif Display";
@@ -264,11 +269,13 @@ img {
   .section-hero {
     flex-direction: column-reverse;
     align-items: center;
+    background-color: aquamarine;
   }
 }
 .hero-text-box {
   max-width: 891px;
-  border: 2px solid orangered;
+  border: 2px solid blue;
+  padding: 20px;
   z-index: 1;
 }
 
@@ -341,6 +348,12 @@ img {
   left: 214px;
 }
 
+@media (max-width: 768px) {
+  .image-description-box {
+    width: 100%;
+    left: 0;
+  }
+}
 .hero-news-box {
   width: 434px;
   background-color: #e6f6ff;
@@ -455,7 +468,6 @@ img {
 
 .section-achievements {
   max-width: 1440px;
-  height: 356px;
   background-image: url("pictures/achievements-background.png");
   display: flex;
   flex-direction: column;
@@ -469,6 +481,11 @@ img {
   border: 2px solid red;
 }
 
+@media (max-width: 768px) {
+  .achievement-box {
+    flex-direction: column;
+  }
+}
 .achievement-item {
   width: 250px;
   display: flex;
@@ -476,6 +493,11 @@ img {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .achievement-item {
+    background-color: blue;
+  }
+}
 .section-testimonials {
   max-width: 1440px;
   background-color: #f2f7ff;
